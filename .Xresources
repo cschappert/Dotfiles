@@ -1,0 +1,47 @@
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.antialias: 1
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.dpi: 96
+Xft.rgba: rgb
+
+URxvt.geometry: 70x22
+URxvt.depth: 24
+URxvt.scrollBar: false
+!URxvt.inputMethod: ibus
+!URxvt.preeditType: OverTheSpot
+!URxvt.font: -*-terminus-medium-*-*-*-17-*-*-*-*-*-*-*
+!URxvt.boldFont: -*-terminus-medium-*-*-*-17-*-*-*-*-*-*-*
+URxvt.font: xft:monospace:pixelsize=15,xft:IPAPGothic
+URxvt.boldFont: xft:monospace:pixelsize=15,xft:IPAPGothic
+!URxvt.iconFile: /usr/share/icons/elementary/apps/64/terminal.svg
+
+! Colors
+URxvt.background: #0f0f0f
+URxvt.foreground: #c6c6c6
+
+! Black
+URxvt*color0 : #2b2b2b
+URxvt*color8 : #4c4c4c
+! Red
+URxvt*color1 : #d24836
+URxvt*color9 : #cd5c5c
+! Green
+URxvt*color2 : #3c9200
+URxvt*color10: #98fb98
+! Yellow
+URxvt*color3 : #bdb76b
+URxvt*color11: #f0e68c
+! Blue
+URxvt*color4 : #005ef7
+URxvt*color12: #87ceeb
+! Magenta
+URxvt*color5 : #7f39aa
+URxvt*color13: #ffa0a0
+! Cyan
+URxvt*color6 : #00ccbb
+URxvt*color14: #5fd7ff
+! White
+URxvt*color7 : #f1f1f1
+URxvt*color15: #ffdead
