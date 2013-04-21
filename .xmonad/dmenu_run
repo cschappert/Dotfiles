@@ -1,0 +1,2 @@
+#!/bin/sh
+exe=`cat /home/chris/.my_dmrun_menu | dmenu ${1+"$@"}` && exec $exe
