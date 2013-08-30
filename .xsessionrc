@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# .xsessionrc
+# As LightDM does not source /etc/profile, etc
+# we need to set any variables here.
+
+export LC_COLLATE=C
+
+if [ -d "$HOME/bin" ] ; then
+   PATH="$HOME/bin:$PATH"
+fi

@@ -13,6 +13,7 @@ set number
 set autoindent
 "set t_Co=16
 set background=dark
+set colorcolumn=80
 colorscheme mySahara
 set dir=/home/chris/.vimtmp
 filetype on

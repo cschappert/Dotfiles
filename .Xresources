@@ -6,15 +6,21 @@ Xft.hinting: 1
 Xft.dpi: 96
 Xft.rgba: rgb
 
-URxvt.geometry: 70x22
+!URxvt.geometry: 70x22
 URxvt.depth: 24
 URxvt.scrollBar: false
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt*saveLines: 8000
+URxvt*iso14755: false
+URxvt*iso14755_52: false
 !URxvt.inputMethod: ibus
 !URxvt.preeditType: OverTheSpot
 !URxvt.font: -*-terminus-medium-*-*-*-17-*-*-*-*-*-*-*
 !URxvt.boldFont: -*-terminus-medium-*-*-*-17-*-*-*-*-*-*-*
-URxvt.font: xft:monospace:pixelsize=15,xft:IPAPGothic
-URxvt.boldFont: xft:monospace:pixelsize=15,xft:IPAPGothic
+URxvt.font: xft:monospace:pixelsize=17,xft:IPAPGothic
+URxvt.boldFont: xft:monospace:pixelsize=17,xft:IPAPGothic
 !URxvt.iconFile: /usr/share/icons/elementary/apps/64/terminal.svg
 
 ! Colors

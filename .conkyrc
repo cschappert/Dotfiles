@@ -1,0 +1,14 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 1
+total_run_times 0
+use_spacer left
+pad_percents 2
+
+TEXT
+cpu ${cpu cpu0}% :: mem $mem :: \
+vol ${if_mixer_mute}mute${else}$mixer%${endif} :: \
+bat ${battery_percent}% :: ${time %a %b %d %H:%M} ::\
+${weather http://weather.noaa.gov/pub/data/observations/metar/stations/ \
+RJTT temperature}C

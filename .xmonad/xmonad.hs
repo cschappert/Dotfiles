@@ -20,7 +20,7 @@ main = do
          , ppTitle = xmobarColor "#ee9a00" "" . shorten 50
          }
       , terminal = "urxvtc"
-      , borderWidth = 3
+      , borderWidth = 2
       }
       `additionalKeys`
-      [ ((mod1Mask, xK_p), spawn "/home/chris/.xmonad/dmenu_run -b -fn -*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-* -nb black -nf white -sb '#ee9a00' -sf black") ]
+      [ ((mod1Mask, xK_p), spawn "dmenu_run -b -fn -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-* -nb black -nf grey -sb grey -sf black") ]
