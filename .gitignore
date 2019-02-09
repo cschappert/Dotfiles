@@ -1,3 +1,3 @@
-.xmonad/*
-!.xmonad/xmonad.hs
-!.xmonad/dmenu_run
+old-debian-vm/.xmonad/*
+!old-debian-vm/.xmonad/xmonad.hs
+!old-debian-vm/.xmonad/dmenu_run
