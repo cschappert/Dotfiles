@@ -119,9 +119,16 @@ fi
 export PATH=$HOME/.local/bin:$PATH
 export PATH=/usr/local/go/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
-export PATH=/usr/local/lib/nodejs/node-v12.13.0-linux-x64/bin:$PATH
+export PATH=/usr/local/lib/nodejs/node-v12.18.3-linux-x64/bin:$PATH
 export PATH=$HOME/.npm-global/bin:$PATH
 
-case "$-" in
-    *i*) [ -z "$TMUX" ] && exec tmux new -A -s main
-esac
+# Enable tmux here
+# case "$-" in
+#     *i*) [ -z "$TMUX" ] && exec tmux new -A -s main
+# esac
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/chris/src/google-cloud-sdk/path.bash.inc' ]; then . '/home/chris/src/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/chris/src/google-cloud-sdk/completion.bash.inc' ]; then . '/home/chris/src/google-cloud-sdk/completion.bash.inc'; fi
